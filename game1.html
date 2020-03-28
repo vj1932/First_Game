@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-2">
+        <h2> Cat</h2>
+        <div>
+            <button class="btn btn-success" onclick="gen()"> Genrate A Cate </button>
+        </div>
+        <div class="flex-box-container-2">
+            <div id="crt-gen">
+            </div>
+        </div>
+        <div> <button class="btn btn-success" onclick="reset()">Restart</button></div>
+    </div>
+    <script>
+        function gen() {
+            var imge = document.createElement('img');
+            var div = document.getElementById('crt-gen');
+            imge.src = "https://media.giphy.com/media/IRFQYGCokErS0/giphy.gif ";
+            div.appendChild(imge);
+        }
+
+        function reset() {
+            location.reload();
+        }
+    </script>
+</body>
+
+</html>

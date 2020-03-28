@@ -1,0 +1,37 @@
+.flex-box-container-1 div {
+    display: flex;
+    padding: 10px;
+    border: 1px solid black;
+    align-items: center;
+}
+
+.container1,
+.container-2,
+.container3,
+.container4 {
+    border: 1px solid blue;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.flex-box-container-2,
+.flex-box-container-1,
+.flex-bx-rps,
+.flex-box-color-pick {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    border: 1px solid brown;
+    flex-wrap: wrap;
+}
+
+.flex-box-container-2 img {
+    border: 1px solid gold;
+    padding: 10px;
+    height: 130px;
+}
+
+.flex-bx-rps img:hover {
+    box-shadow: 0px 10px 50px rgb(37, 50, 90);
+}
